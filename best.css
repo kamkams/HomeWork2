@@ -23,12 +23,12 @@
 .ad-cont{
     grid-area: ad;
 }
-.ad2-cont2{
+/* .ad2-cont2{
     grid-area: ad2
-}
-.ad3-cont3{
+} */
+/* .ad3-cont3{
     grid-area: ad3
-}
+} */
 .main-cont{
     grid-area: main;
 }
@@ -47,19 +47,19 @@
         grid-template-areas:
         "header header header"
         "hero hero hero"
-        "main main ad2" 
+        "main main ad" 
         "sidbar sidbar sidbar"
         "footer footer footer";
     }
 }
 @media (min-width: 992px) {
     .outer-container{
-        grid-template-columns: auto 250px;
+        grid-template-columns: 1fr 250px;
         grid-template-rows: 200px 100px auto 100px;
         background-color: yellow;
         grid-template-areas:
         "header header header"
-        "hero hero ad3"
+        "hero hero ad"
         "main main sidbar" 
         "footer footer footer";
     }
