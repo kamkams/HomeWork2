@@ -36,10 +36,10 @@
         grid-template-rows: 200px 100px auto 100px 100px;
         background-color: blueviolet;
         grid-template-areas:
-        "header" "header" "header"
-        "hero" "hero" "hero"
-        "main" "main" "ad" 
-        "sidbar" "sidbar" "sidbar"
-        "footer" "footer" "footer";
+        "header header header"
+        "hero hero hero"
+        "main main ad" 
+        "sidbar sidbar sidbar"
+        "footer footer footer";
     }
 }
