@@ -23,8 +23,17 @@
 .ad-cont{
     grid-area: ad;
 }
+.ad2-cont2{
+    grid-area: ad2
+}
+.ad3-cont3{
+    grid-area: ad3
+}
 .main-cont{
     grid-area: main;
+}
+.sidbar-cont{
+    grid-area: sidbar
 }
 .footer-cont{
     grid-area:footer;
@@ -38,8 +47,20 @@
         grid-template-areas:
         "header header header"
         "hero hero hero"
-        "main main ad" 
+        "main main ad2" 
         "sidbar sidbar sidbar"
+        "footer footer footer";
+    }
+}
+@media (min-width: 992px) {
+    .outer-container{
+        grid-template-columns: auto 250px;
+        grid-template-rows: 200px 100px auto 100px;
+        background-color: yellow;
+        grid-template-areas:
+        "header header header"
+        "hero hero ad3"
+        "main main sidbar" 
         "footer footer footer";
     }
 }
