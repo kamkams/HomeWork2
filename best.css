@@ -15,6 +15,7 @@
 
 .header-cont{
     grid-area: header;
+    background-color: chartreuse;
 }
 .hero-cont{
     grid-area: hero;
