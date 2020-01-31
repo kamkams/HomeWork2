@@ -1,7 +1,7 @@
 .outer-container{
     display: grid; 
     grid-template-columns: 1fr;
-    grid-template-rows: 200px 100px  3fr 1fr 100px;
+    grid-template-rows: 200px 100px  1fr 3fr 100px;
     grid-template-areas:
      "header"
      "hero"
