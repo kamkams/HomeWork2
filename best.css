@@ -2,10 +2,43 @@
     display: grid; 
     grid-template-columns: 1fr;
     grid-template-rows: 200px 100px  1fr 3fr 100px;
+    height: 100vh;
     grid-template-areas:
      "header"
      "hero"
      "ad"
      "main"
      "footer";
+}
+
+
+.header-cont{
+    grid-area: header;
+}
+.hero-cont{
+    grid-area: hero;
+}
+.ad-cont{
+    grid-area: ad;
+}
+.main-cont{
+    grid-area: main;
+}
+.footer-cont{
+    grid-area:footer;
+}
+
+@media (min-width 576px){
+    .outer-container{
+        grid-template-columns: 120px 1fr 120px;
+        grid-template-rows: 200px 100px auto 100px 100px;
+        grid-template-areas:
+        "header" "header" "header"
+        "hero" "hero" "hero"
+        "main" "main" "ad" 
+        "sidbar" "sidbar" "sidbar"
+        "footer" "footer" "footer";
+
+        
+    }
 }
