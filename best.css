@@ -9,6 +9,7 @@
      "ad"
      "main"
      "footer";
+     background-color: blue;
 }
 
 
@@ -32,6 +33,7 @@
     .outer-container{
         grid-template-columns: 120px 1fr 120px;
         grid-template-rows: 200px 100px auto 100px 100px;
+        background-color: blueviolet;
         grid-template-areas:
         "header" "header" "header"
         "hero" "hero" "hero"
