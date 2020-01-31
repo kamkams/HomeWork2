@@ -5,7 +5,7 @@
     grid-template-areas:
      "header"
      "hero"
-     "main"
      "ad"
+     "main"
      "footer";
 }
