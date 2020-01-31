@@ -11,7 +11,9 @@
      "footer";
      background-color: crimson;
 }
-
+.submit{
+    background-color: teal;
+}
 
 .header-cont{
     grid-area: header;
