@@ -11,9 +11,9 @@
      "footer";
      background-color: crimson;
 }
-.submit{
-    background-color: teal;
-}
+/* .button{
+    color: cyan;
+} */
 
 .header-cont{
     grid-area: header;
@@ -24,6 +24,7 @@
 }
 .ad-cont{
     grid-area: ad;
+    background-color: pink;
 }
 /* .ad2-cont2{
     grid-area: ad2
@@ -61,7 +62,7 @@
         background-color: yellow;
         grid-template-areas:
         "header header header"
-        "hero hero ad"
+        "hero ad ad"
         "main main sidbar" 
         "footer footer footer";
     }
