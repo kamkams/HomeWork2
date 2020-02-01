@@ -10,8 +10,7 @@
      "ad"
      "main"
      "footer";
-    }
-
+}
 .header-cont{
     display: flex;
     grid-area: header;
@@ -19,17 +18,16 @@
     justify-content: center;
 }
      #box1 {
-    
         font-family: Lobster;
         width: 50%;
         height: 100px;
         padding:30px;
-     }
+}
      #box2 {
         width: 100px;
         height: 50%;
         padding-left: 47px;
-    }
+}
 
 .hero-cont{
     display: flex;
@@ -39,10 +37,7 @@
 }
 .ad-cont{
     grid-area: ad;
-    /* background-color: pink; */
-    padding:2px;
-
-    
+    padding:2px;   
 }
 .main-cont{
     grid-area: main;
@@ -59,8 +54,6 @@
     background-color: #ffbf00;
     font-size: 10px;
 }
-
-
 @media (min-width: 576px) {
     .outer-container{
         grid-template-columns:1fr 120px;
@@ -73,10 +66,11 @@
         "sidbar sidbar"
         "footer footer";
     }
+}
     .header-cont, .footer-cont {
         background-color: #00ffff;
         justify-content: left;
-    }   
+ }   
     
      /* #box2{
          display: grid;
