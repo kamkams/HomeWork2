@@ -50,7 +50,7 @@
 }
 .footer-cont {
     grid-area:footer;
-    background-color: #ffbf00;
+    background-color: #a3b817;
     font-size: 10px;
 }
  @media (min-width: 576px) {
@@ -67,7 +67,7 @@
     
     }
  .header-cont, .footer-cont {
-        background-color: #03cdff;
+        background-color: #17a2b8;
         justify-content: left;
     }
  }  
