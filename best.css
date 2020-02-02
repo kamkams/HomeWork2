@@ -40,7 +40,9 @@
 }
 .ad-cont {
     grid-area: ad;
-    padding:2px;   
+    padding:2px;
+    width: 468px;
+    height: 60px;   
 }
 .main-cont {
     grid-area: main;
