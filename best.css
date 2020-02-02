@@ -6,20 +6,19 @@
     grid-template-areas:
      "header"
      "hero"
-     "ad"
+     "ad2"
+     "."
      "main"
      "footer";
 }
 .header-cont {
-    grid-template-columns: 1fr 120px;
-    grid-template-rows: 2fr;
+    display: flex;
     grid-area: header;
     background-color: #a3b817;
-    grid-template-areas:
-        "box1 box2";
     justify-content: center;
 }
-     #box1 {
+
+    #box1 {
         font-family: Lobster;
         width: 50%;
         height: 100px;
@@ -29,7 +28,8 @@
      #box2 {
         width: 100px;
         height: 50%;
-        padding: 20px;
+        padding-left: 47px;
+        padding-bottom: 20px;
         grid-area: box2;
 }
 .hero-cont {
@@ -41,14 +41,19 @@
 .ad-cont {
     grid-area: ad;
     padding:2px;
+    width: 120px;
+    height: 600px;   
+}
+.ad-con2 {
+    grid-area: ad2;
+    padding:2px;
     width: 468px;
-    height: 60px;   
+    height: 60px; 
 }
 .main-cont {
     grid-area: main;
     text-align: justify;
     padding: 5px;
-    /* width: auto; */
 }
 .sidbar-cont {
     grid-area: sidbar;
@@ -58,7 +63,7 @@
     grid-area:footer;
     background-color: #a3b817;
     font-size: 10px;
-}
+ }
  @media (min-width: 576px) {
     .outer-container{
         grid-template-columns:1fr 120px;
@@ -69,6 +74,7 @@
         "hero hero"
         "main ad" 
         "sidbar sidbar"
+        "."
         "footer footer";
     
     }
@@ -82,12 +88,12 @@ grid-template-areas:
     }
  }  
 
-   /* #box2{
+    /* #box2{
          display: grid;
          grid: column start 2;
-} 
-} */
-@media (min-width: 992px) {
+}  */
+ 
+ @media (min-width: 992px) {
     .outer-container{
         grid-template-columns: 1fr 250px;
         grid-template-rows: 150px 100px auto 20px;    
@@ -98,4 +104,4 @@ grid-template-areas:
         "main main sidbar" 
         "footer footer footer";
     }
-}  
+} 
