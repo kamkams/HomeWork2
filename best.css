@@ -19,8 +19,6 @@
     background-color: #a3b817;
     grid-template-areas:
         "box1 box2";
-    grid-template-columns: auto auto;
-    height: auto;
     justify-content: center;
 }
      #box1 {
